@@ -24,22 +24,20 @@ const arrayAdd = [...inventory.items];
 /*
 //console.log(invokeAdd);
 //{ act: 'Adding Medkit to inventory', msg: 'Invoking action on Medkit' }
-
 //console.log(arrayAdd);
 // ['Knife', 'Gas mask', 'Medkit']
 */
 
-//const invokeRemove = invokeInventoryAction(
-//  'Gas mask',
-// inventory.remove  // Write code in this line
-//);
+// const invokeRemove = invokeInventoryAction(
+//   'Gas mask',
+//   inventory.remove.bind(inventory)  // Write code in this line
+// );
 
-//const arrayRemove = [...inventory.items];
+// const arrayRemove = [...inventory.items];
 
 /*
 //console.log(invokeRemove);
 //{ act: 'Removing Gas mask from inventory', msg: 'Invoking action on Gas mask' }
-
 //console.log(arrayRemove);
 // ['Knife', 'Medkit']
 */
